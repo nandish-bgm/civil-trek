@@ -31,6 +31,9 @@ export default function Navbar() {
             <Link to="/unit-converter" className={linkClass('/unit-converter')}>
               Unit Converter
             </Link>
+            <Link to="/structural-load" className={linkClass('/structural-load')}>
+              Structural Load
+            </Link>
             {user && (
               <Link to="/dashboard" className={linkClass('/dashboard')}>
                 Dashboard
