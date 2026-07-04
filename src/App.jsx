@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx';
 import CalculatorPage from './pages/CalculatorPage.jsx';
 import Dashboard from './pages/Dashboard.jsx';
 import UnitConverter from './pages/UnitConverter.jsx';
+import StructuralLoad from './pages/StructuralLoad/index.jsx';
 
 function AppRoutes() {
   const location = useLocation();
@@ -18,6 +19,7 @@ function AppRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/calculator" element={<CalculatorPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/structural-load" element={<StructuralLoad />} />
           <Route path="/unit-converter" element={<UnitConverter />} />
         </Routes>
       </main>
