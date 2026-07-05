@@ -34,9 +34,7 @@ export default function Navbar() {
             <Link to="/structural-load" className={linkClass('/structural-load')}>
               Structural Load
             </Link>
-            <Link to="/tools/highway" className={linkClass('/tools/highway')}>
-              Highway
-            </Link>
+           
             {user && (
               <Link to="/dashboard" className={linkClass('/dashboard')}>
                 Dashboard
